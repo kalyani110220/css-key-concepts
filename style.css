@@ -1,0 +1,39 @@
+head {
+    background-color: green;
+   color: rgb(102, 43, 239);
+
+    text-align: center;
+}     
+ body {  
+       text-align: center;
+}
+nav {
+    margin-left: 20px;
+}
+.topnav{
+    background-color: hsl(199, 60%, 54%);
+    color: black;
+}  
+
+div {
+    width: 300px;
+    border: 15px ;
+    padding: 50px;
+    margin: 20px;
+  }
+  IMG.displayed {
+    display: table-cell;
+    width: 150px;
+    height: 200px;
+  }
+  fieldset {
+    border: 2px solid green;
+    padding: 20px;
+}
+.form-container {
+    text-align: center;
+}
+
+
+
+  
