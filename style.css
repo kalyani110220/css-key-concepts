@@ -1,19 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-banner {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.top-banner a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+.navigation {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+.search-container {
+    text-align: right;
+    padding: 20px;
+    width: 100%;
+}
+
+.search-container input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.search-container input[type="submit"] {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.search-container form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.covid-update {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.covid-update h3 {
+    color: #333;
+}
+
+.covid-update p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.welcome-section {
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 100%;
+}
+
+.welcome-section h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.welcome-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.welcome-section address {
+    color: #666;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.video-section {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .video-section h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .video-section video {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .form-section {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .form-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .form-row {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .form-row label {
+    /* width: 25%; */
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="date"],
+  .form-row input[type="tel"],
+  .form-row input[type="email"],
+  .form-row textarea {
+    /* width: 75%; */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-row input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-row input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
+
+
 head {
+    
     background-color: green;
    color: rgb(102, 43, 239);
 
     text-align: center;
 }     
- body {  
+ /* body {  
        text-align: center;
+}  */
+       .navigation {
+    background-color: green;
+    color: white;
+    padding: 10px;
 }
-nav {
-    margin-left: 20px;
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-.topnav{
-    background-color: hsl(199, 60%, 54%);
-    color: black;
-}  
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
 
 div {
     width: 300px;
@@ -33,7 +236,3 @@ div {
 .form-container {
     text-align: center;
 }
-
-
-
-  
